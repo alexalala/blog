@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Sarabun');
+
 * {
     background: #f5f5f5;
     color: black;
+    font-family: 'Sarabun', sans-serif;
 }
 html {
     height: 100%;
