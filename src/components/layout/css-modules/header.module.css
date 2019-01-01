@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
 .container {
   text-align: center;
   padding: 1rem;
@@ -6,4 +8,7 @@
 .heading {
   margin: 0;
   writing-mode: tb;
+  font-family: 'Lora', serif;
+  font-size: 2.5rem;
+  font-weight: 300;
 }
