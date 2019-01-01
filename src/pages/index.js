@@ -2,25 +2,32 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout/layout'
+import '../assets/styles/index.css'
 
 export default function Index({ data }){
   const { edges: posts } = data.allMarkdownRemark;
   return (
     <Layout>
-      <div className="blog-posts">
-        {posts
-          .filter(post => post.node.frontmatter.title.length > 0)
-          .map(({ node: post }) => {
-            return (
-              <div className="blog-post-preview" key={post.id}>
-                <h1>
-                  <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
-                </h1>
-                <h2>{post.frontmatter.date}</h2>
-                <p>{post.excerpt}</p>
-              </div>
-            );
-          })}
+      <div className="landing-container">
+        <div>
+          <h2>Hi, I'm Alexandra. A self-taught front end developer from Norwich.</h2>
+          <p>My passions are design, development and accessibility.</p>
+        </div>
+        <div className="blog-posts">
+          {posts
+            .filter(post => post.node.frontmatter.title.length > 0)
+            .map(({ node: post }) => {
+              return (
+                <div className="blog-post-preview" key={post.id}>
+                  <h1>
+                    <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
+                  </h1>
+                  <h2>{post.frontmatter.date}</h2>
+                  <p>{post.excerpt}</p>
+                </div>
+              );
+            })}
+        </div>
       </div>
     </Layout>
   );

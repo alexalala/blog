@@ -1,0 +1,8 @@
+.landing-container {
+  display: flex;
+}
+
+.landing-container > div {
+  width: 50%;
+  padding: 5rem;
+}
