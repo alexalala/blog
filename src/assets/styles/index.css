@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+h3 {
+  font-family: 'Lora', serif;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+}
+
+p {
+  margin: 5px;
+}
+
 .landing-container {
   display: flex;
 }
@@ -5,4 +17,15 @@
 .landing-container > div {
   width: 50%;
   padding: 5rem;
+  padding: 5rem 2rem;
+}
+
+.blog-post-preview {
+  margin: 2rem 0.5rem;
+}
+
+.date {
+  text-align: right;
+  font-weight: 600;
+  font-size: 1.1rem;
 }
