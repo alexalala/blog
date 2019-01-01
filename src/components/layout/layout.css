@@ -7,7 +7,7 @@ html {
 body {
     height: 100%;
     margin: 0;
-    background: linear-gradient(to bottom left, #ccccff 0%, #666699 100%);
+    background: linear-gradient(to top left, #ccccff 0%, #edf7ff 100%);
     color: black;
     font-family: 'Sarabun', sans-serif;
     font-size: 16px;
