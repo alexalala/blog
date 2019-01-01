@@ -5,13 +5,13 @@ import React from 'react'
 import headerStyles from './css-modules/header.module.css'
 
 const Header = ({ siteTitle }) => (
-  <div className={headerStyles.container}>
+  <header className={headerStyles.container}>
     <h1 className={headerStyles.heading}>
       <Link to="/">
         {siteTitle}
       </Link>
     </h1>
-  </div>
+  </header>
 )
 
 Header.propTypes = {
