@@ -12,6 +12,7 @@ export default function Index({ data }){
         <div>
           <h2>Hi, I'm Alexandra. A self-taught front end developer from Norwich.</h2>
           <p>My passions are design, development and accessibility.</p>
+          <a className="twitter-timeline" href="https://twitter.com/alexandraamoore?ref_src=twsrc%5Etfw">Tweets by alexandraamoore</a>
         </div>
         <div className="blog-posts">
           {posts
