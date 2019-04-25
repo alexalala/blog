@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `alexandra frances`,
     description: ``,
-    author: `Alexandra Moore`,
+    author: `Alexandra Moore`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -27,7 +27,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`
-      },
+      }
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
