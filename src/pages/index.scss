@@ -1,0 +1,15 @@
+@import '../assets/scss/_variables.scss';
+
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  text-align: right;
+
+  h2 {
+    font-size: 2rem;
+    font-family: $font-primary-family;
+    color: $grey;
+    margin: 4rem 1.5rem;
+  }
+}

@@ -4,14 +4,13 @@ import React from 'react'
 
 import headerStyles from './header.module.css'
 import Sidemenu from '../../Sidemenu/Sidemenu'
+import logoSmall from '../../../assets/img/logo-small.svg'
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header className={headerStyles.container}>
-    <h1 className={headerStyles.heading}>
-      <Link to="/">
-        {siteTitle}
-      </Link>
-    </h1>
+    <Link to="/">
+      <img src={logoSmall} />
+    </Link>
     <Sidemenu />
   </header>
 )

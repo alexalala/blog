@@ -1,8 +1,11 @@
+const config = require('./config.js');
+
 module.exports = {
   siteMetadata: {
     title: `alexandra frances`,
     description: ``,
-    author: `Alexandra Moore`
+    author: `Alexandra Moore`,
+    menu: config.menu
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
