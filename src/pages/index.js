@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout/layout'
-import '../assets/styles/index.css'
 
 export default function Index({ data }){
   const { edges: posts } = data.allMarkdownRemark;
