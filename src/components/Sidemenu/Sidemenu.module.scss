@@ -1,9 +1,10 @@
+@import '../../assets/scss/variables.scss';
+
 .hamburgler span {
   display: block;
   width: 33px;
   height: 4px;
   margin-bottom: 5px;
-  position: relative;
-  background: #cdcdcd;
+  background: $grey-darker;
   border-radius: 3px;
 }
