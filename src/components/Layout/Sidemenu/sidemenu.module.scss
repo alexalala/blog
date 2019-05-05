@@ -2,8 +2,6 @@
 .menuToggle {
   display: block;
   position: relative;
-  top: 50px;
-  left: 50px;
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
@@ -21,7 +19,7 @@
     -webkit-touch-callout: none;
 
     &:checked ~ ul {
-      transform: none;
+      transform: translate(-100%, 0);
     }
   }
 
@@ -67,14 +65,15 @@
 .menu {
   position: absolute;
   width: 300px;
-  margin: -65px 0 0 450px;
+  margin: -75px 0 0 200px;
   padding: 50px;
   padding-top: 125px;
   background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
-  transform: translate(-100%, 0);
+  transform: none;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 
   li {
     padding: 10px 0;
