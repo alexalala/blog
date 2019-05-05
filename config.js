@@ -1,10 +1,6 @@
 module.exports = {
   menu: [
     {
-      name: 'Landing',
-      path: '/'
-    },
-    {
       name: 'About',
       path: '/about'
     },
