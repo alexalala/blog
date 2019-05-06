@@ -67,9 +67,11 @@
 .menu {
   position: absolute;
   font-family: $font-secondary-family;
-  height: 100vh;
+  height: calc(100vh - 170px);
   width: 200px;
-  margin: -75px 0 0 75px;
+  top: -3rem;
+  left: 4rem;
+  margin: 0;
   padding: 50px;
   padding-top: 125px;
   background: $grey-darker;
