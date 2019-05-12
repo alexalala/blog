@@ -4,7 +4,7 @@
   text-align: right;
   border-bottom: 1px solid $grey;
   padding: 1rem 0;
-  margin: 5% 25% 0 10%;
+  margin: 5% 20% 0 10%;
 
   h1 {
     margin: 0;
@@ -12,4 +12,10 @@
     font-weight: lighter;
     font-size: 3.5rem;
   }
+}
+
+.img {
+  margin: 1rem auto;
+  width: 60%;
+  display: flex;
 }
