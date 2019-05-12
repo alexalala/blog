@@ -1,0 +1,15 @@
+@import '../../assets/scss/_variables.scss';
+
+.container {
+  text-align: right;
+  border-bottom: 1px solid $grey;
+  padding: 1rem 0;
+  margin: 5% 25% 0 10%;
+
+  h1 {
+    margin: 0;
+    font-family: $font-primary-family;
+    font-weight: lighter;
+    font-size: 3.5rem;
+  }
+}
