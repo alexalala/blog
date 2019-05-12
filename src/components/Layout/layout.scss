@@ -13,4 +13,10 @@ body {
 
 main {
   margin: 0 2rem;
+
+  p {
+    font-size: 1.5rem;
+    font-family: $font-secondary-family;
+    color: $font-secondary-colour;
+  }
 }
